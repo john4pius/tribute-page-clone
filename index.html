@@ -6,29 +6,31 @@
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="src/favicon.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="src/favicon.png" sizes="16x16 32x32" type="image/png">
 </head>
 
 <body>
     <div class="fcp-dnb-tp-container">
         <header class="fcp-dnb-tp-header">
             <div class="fcp-dnb-tp-header-container">
-                <h1>Dr. Norman Borlaug</h1>
+                <h1 id="title">Dr. Norman Borlaug</h1>
                 <p>The man who saced a billion lives</p>
             </div>
         </header>
-        <main class="fcp-dnb-tp-main">
+        <main class="fcp-dnb-tp-main" id="main">
             <section class="fcp-dbn-tp-main-section">
-                <div class="fcp-dnb-tp-figure-container">
+                <div class="fcp-dnb-tp-figure-container" id="img-div">
                     <figure class="fcp-dbn-tp-main-section-figure">
-                        <img src="src/norman_borlaug.jpg" alt="dr. Norman Borlaug">
-                        <figcaption class="fcp-dbn-tp-main-figcaption">
+                        <img id="image" src="src/norman_borlaug.jpg" alt="dr. Norman Borlaug">
+                        <figcaption class="fcp-dbn-tp-main-figcaption" id="img-caption">
                             Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.
                         </figcaption>
                     </figure>
                 </div>
             </section>
-            <section>
-                <div class="fcp-dnb-tp-event-header">
+            <section class="fcp-dnb-container">
+                <div class="fcp-dnb-tp-event-header" id="tribute-info">
                     <h2>
                         Here's a time line of Dr. Borlaug's life:
                     </h2>
@@ -76,22 +78,25 @@
                             <li>
                                 <strong> 2009 </strong>- dies at the age of 95.</li>
                         </ul>
-                    </article>
-                    <article class="fcp-dnb-tp-key-events-quote">
-                        <p>
-                            <i>
-                                "Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress." <br>-- Indian Prime Minister Manmohan
-                            Singh
-                            </i>
-                        </p>
+
+                        <div class="fcp-dnb-tp-key-events-quote">
+                            <p>
+                                <i>
+                                    "Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress." <br>-- Indian Prime Minister Manmohan
+                                Singh
+                                </i>
+                            </p>
+                        </div>
                     </article>
                 </div>
             </section>
         </main>
         <footer>
             <p>
-                <strong>you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="blank">Wikipedia entry</a>.</strong>
+                <strong>you have time, you should read more about this incredible human being on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank">Wikipedia entry</a>.</strong>
             </p>
         </footer>
     </div>
 </body>
+
+</html>

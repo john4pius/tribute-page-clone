@@ -36,7 +36,9 @@ p {
 }
 
 img {
-    width: 100%;
+    display: block;
+    max-width: 110%;
+    margin: 0 auto;
 }
 
 figcaption {
@@ -46,19 +48,26 @@ figcaption {
     padding-bottom: 20px;
 }
 
+.fcp-dnb-container {
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+}
+
 .fcp-dnb-tp-event-header {
-    margin: 50px 0 50px 0;
+    text-align: center;
 }
 
 h2 {
     text-align: center;
 }
 
-.fcp-dnb-tp-key-events {
-    display: block;
+
+/* .fcp-dnb-tp-key-events {
+    display: flex;
     width: 60%;
     margin: 0 auto;
-}
+} */
 
 li {
     line-height: 30px;
