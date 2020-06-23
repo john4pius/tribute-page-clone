@@ -37,7 +37,7 @@ p {
 
 img {
     display: block;
-    max-width: 110%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -48,33 +48,33 @@ figcaption {
     padding-bottom: 20px;
 }
 
-.fcp-dnb-container {
+.fcp-dnb-tp-list-border {
     display: block;
-    width: 600px;
+    max-width: 650px;
+    min-width: 100px;
     margin: 0 auto;
 }
 
+.fcp-dnb-tp-list {
+    margin: 16px;
+    line-height: 30px;
+    padding: 15px 0 0 0;
+}
+
 .fcp-dnb-tp-event-header {
-    text-align: center;
+    min-width: 100px;
+    margin: 16px;
+}
+
+h3 {
+    display: none;
 }
 
 h2 {
     text-align: center;
 }
 
-
-/* .fcp-dnb-tp-key-events {
-    display: flex;
-    width: 60%;
-    margin: 0 auto;
-} */
-
-li {
-    line-height: 30px;
-    padding: 15px 0 0 0;
-}
-
-.fcp-dnb-tp-key-events-quote>p {
+.fcp-dnb-tp-key-events-quote {
     text-align: left;
 }
 
@@ -82,4 +82,8 @@ footer>p {
     line-height: 30px;
     font-size: 20px;
     padding-bottom: 30px;
+}
+
+#tribute-link {
+    color: #477ca7;
 }
