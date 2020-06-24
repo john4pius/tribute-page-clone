@@ -1,38 +1,33 @@
-# HTML FORM : Mint Sign-Up Page (Microverse Collaborative Project)
+# Responsive Web Design Projects - Build a Tribute Page
 
-> This project centers on the use of plain HTML and CSS to create a form.
-> A reproduction of the mint sign up page was used to complete the project
+## Objective
+Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx.
 
-![screenshot](./src/mint_signup_page.png)
+![screenshot](./src/page-capture.png)
 
 ## Built With
 
 - HTML & CSS
 
 ## Live Demo
-- [Live Demo Link](https://rawcdn.githack.com/Ahmed-Benj/mint-sign-up-page/6e6b4f294f8041d884425aa168fd9578e8a0a1c6/index.html)
+- [Live Demo Link](https://raw.githack.com/john4pius/tribute-page-clone/master/index.html)
 
 #### Prerequisites
 - Browser
 - Internet
-## Authors
+
+## Author
 
 👤 **John Pius**
 
 - Github (https://github.com/john4pius)
-- Linkedin (https://www.linkedin.com/in/john-pius-5447b353/)
+- Linkedin (https://www.linkedin.com/in/john-pius/)
 - Twitter (@John4pius)
-
-👤 **Ahmed Ben Jmii**
-
-* Ahmed (https://github.com/Ahmed-Benj)
-* Linkedin (https://www.linkedin.com/in/ahmed-b-05600992/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check them https://github.com/Ahmed-Benj/mint-sign-up-page/issues.
 
 ## Show your support
 
